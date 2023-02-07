@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* get Dyhana Regular TTF from fonts */
+@font-face {
+    font-family: 'Dyhana';
+    src: url('../asset/DhyanaRegular.ttf');
+    font-weight: 400;
+    font-style: normal;
+    }
+
+.dyhana {
+    font-family: 'Dyhana';
+}
