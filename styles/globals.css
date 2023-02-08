@@ -19,3 +19,7 @@ html {
     scroll-behavior: smooth;
   }
   
+.team {
+    left: 0; 
+    bottom: 0;
+}
