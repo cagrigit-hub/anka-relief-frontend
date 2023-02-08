@@ -1,5 +1,4 @@
 import Hero from '@/components/Hero'
-import Team from '@/components/Team'
 import Head from 'next/head'
 import React from 'react'
 
@@ -15,7 +14,6 @@ function Home() {
         </Head>
         <main>
           <Hero />
-          <Team />
         </main>
     </>
   )
