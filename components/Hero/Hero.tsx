@@ -55,6 +55,7 @@ function Hero() {
         </div>
         <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[610px] ', roboto.className)}>
             <p>Anka Relief is a crypto relief fund & research network with the mission of enabling the international crypto community to support the people of Türkiye. </p>
+            <br />
             <p> Emergency need-based intervention and longer term reconstruction efforts are desperately needed since the disastrous earthquakes that shocked the region on February 6.</p>
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl  border-solid mt-12 mb-24 border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button></a>
