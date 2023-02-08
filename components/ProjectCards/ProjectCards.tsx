@@ -26,17 +26,15 @@ function ProjectCards({id, header, title, content, path, img, imgMobile}: IProje
   return (
     <div className={classNames(roboto.className, "max-w-7xl w-full mx-auto")}>
       <h1 className='text-[25px] font-bold ml-8 mb-3'>{header}</h1>
-      <Link  href={path} className='flex flex-col lg:flex-row'>
+      <Link  href={path} className='flex flex-col lg:flex-row '>
 
         <div style={{
         background: "rgba(220, 216, 216, 0.24)",
         borderRadius: "47px 1px 1px 47px",
-        textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
-        }} className="left px-12 py-6 text-justify w-full hidden lg:block md:w-[50%] ">
-            <h2 className=' font-bold'>{title}</h2>
-            <p className='font-[400] mt-4 ' style={{
-              textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
-            }}>
+          
+        }} className="left px-12  py-12 text-justify w-full hidden lg:block md:w-[50%] ">
+            <h2 className='font-bold'>{title}</h2>
+            <p className='font-[400] mt-4 '>
               {content}
             </p>
         </div>
@@ -46,12 +44,10 @@ function ProjectCards({id, header, title, content, path, img, imgMobile}: IProje
         <div style={{
         background: "rgba(220, 216, 216, 0.24)",
         borderRadius: "1px 1px 47px 47px",
-        textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
+       
         }} className="left px-12 py-6 text-justify mx-auto w-[90%] block lg:hidden ">
             <h2 className=' font-bold'>{title}</h2>
-            <p className='font-[400] mt-4 ' style={{
-              textShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)"
-            }}>
+            <p >
               {content}
             </p>
         </div>

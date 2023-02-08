@@ -13,34 +13,34 @@ const accounts = [
   {
     id: 1,
     name: "ETH,USDC,USDT,TRYC:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................"
   },
   {
     id: 2,
     name: "BTC:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................"
   },
   {
     id: 3,
     name: "TRX:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................"
   },
   {
     id: 4,
     name: "AVAX:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................"
 
   },
   {
     id: 5,
     name: "SOL:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................."
 
   },
   {
     id: 6,
     name: "BNB:",
-    account: "0xbe4cde5eeeed1f0a97a9457f6ef5b71eae108652"
+    account: "0xb......................................"
 
   }
 
