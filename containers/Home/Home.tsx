@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Hopes from '@/components/Hopes'
+import Projects from '@/components/Projects'
 import QA from '@/components/QA'
 import Team from '@/components/Team'
 import Head from 'next/head'
@@ -21,6 +22,7 @@ function Home() {
           <Hopes />
           <Team />
           <QA />
+          <Projects />
           <Footer />
         </main>
 

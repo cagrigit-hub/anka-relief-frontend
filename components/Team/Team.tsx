@@ -2,7 +2,7 @@ import React from 'react'
 
 function Team() {
     return (
-        <div className="container my-24 px-6 mx-auto">
+        <div id="signers" className="container my-24 px-6 mx-auto">
             <section className="mb-32 text-gray-800 text-center">
                 <h2 className="text-3xl font-bold mb-12">Multi Signers</h2>
 
