@@ -43,7 +43,7 @@ function Qa() {
       <div className='absolute h-[10rem] w-full' style={{
         background : "linear-gradient(180deg, #E3F0D7 0%, rgba(255, 255, 255, 0) 100%)"
       }} />
-        <div className='px-12 md:px-1  md:max-w-7xl pt-[11rem] mx-auto w-full '>
+        <div className='px-12 xl:px-1  md:max-w-7xl pt-[11rem] mx-auto w-full '>
           <div>
             <h1 className={classNames(roboto.className, "text-[20px] md:text-[38px] font-bold")}>Asked Questions</h1>
             <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p>

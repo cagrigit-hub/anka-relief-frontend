@@ -23,3 +23,20 @@ html {
     left: 0; 
     bottom: 0;
 }
+
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100px;
+    align-items: center;
+    z-index: 1000;
+  }
+  .appeal-img {
+    display: block;
+  }
