@@ -136,7 +136,7 @@ function Team() {
                             </div>
                             <div className="p-6">
                                 <h5 className="text-lg font-bold mb-4">Can Kisagun</h5>
-                                <p className="text-gray-500 mb-4">Founder @ Enigma</p>
+                                <p className="text-gray-500 mb-4">Co-founder @ Enigma</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/kisaguncan" target={'_blank'} className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-blue-600">
