@@ -13,27 +13,27 @@ const qas = [
   {
     id: 1,
     question : "What currencies and networks are supported?",
-    answer : "We support erc20 tokens on these networks: Ethereum Mainnet, Avalanche, Binance Smart Chain, Celo."
+    answer : "We currently support all tokens available on the following networks and are working with industry stakeholders to add more: Ethereum, Avalanche, Binance Smart Chain, Celo & Gnosis Chain."
   },
   {
     id:2,
     question: "Several NGOs already have crypto accounts opened. Why donate here instead of directly to those NGOs?",
-    answer: "For potential donors outside of Turkiye, deciding which NGOs to donate can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations. These other trustable NGOs that have not opened crypto accounts yet can also be funded through the raised funds in later stage of the response efforts."
+    answer: "For potential donors outside of Turkiye, deciding which NGOs to donate can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations."
   },
   {
     id:3,
     question: "Why should we trust this initiative?",
-    answer: "Anka Relief is a web3 native initiative with multiple industry-leading signers, a history of successful impact projects including  Unchain Fund and Save Pakistan Relief NFT Fundraising, and a supportive community on the ground. <br/> We believe it is important to disperse funds to a wide array of NGOs to meet various short and long-term needs that are emerging in every moment. Thanks to help from people on the ground and entities like Paribu and BTC Türk, more NGOs are accepting cryptocurrency donations."
+    answer: "Anka Relief is a web3 native initiative with a secure multi-signature wallet operated by industry leaders, a history of successful impact projects including  Unchain Fund and Save Pakistan Relief NFT Fundraising, and a supportive community on the ground. <br/> We believe it is important to disperse funds to a wide array of NGOs to meet various short and long-term needs that are emerging in every moment. Thanks to help from people on the ground and entities like Paribu and BTC Türk, more NGOs are accepting cryptocurrency donations."
   },
   {
     id: 4,
-    question: "What is a multi sig wallet and how is this relevant?",
+    question: "What is a multi-signature wallet and how is this relevant?",
     answer: "To move funds from an Anka Relief multi-signature wallet, at least 5 industry leaders must approve the transaction. This increases security and transparency, building trust and providing visibility. For more information, visit https://safe.global/."
   },
   {
     id: 5,
     question: "How can we track your transparency?",
-    answer: "Every transaction must have supporting documents and financial reports to ensure that funds are allocated with accuracy and transparency, aiding disaster relief in Turkiye."
+    answer: "Every transaction will have supporting documents and financial reports to ensure that funds are allocated with accuracy and transparency, aiding disaster relief in Türkiye."
   },
   {
     id: 6,
