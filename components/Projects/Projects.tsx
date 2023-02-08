@@ -26,7 +26,7 @@ function Projects() {
       id: 3,
       header: 'Choice DAO',
       title: "Campaigned & fundraised for female reproductive rights in the US post Roe v Wade.",
-      content: "We’re a global community of volunteer activists and Web3 enthusiasts here to fund and engage in the fight for reproductive rights.",
+      content: "Choice DAO was a global community of volunteer activists and web3 enthusiasts campaigning & fundraising in the fight for human rights.",
       path: "https://twitter.com/TheChoiceDAO/status/1549802145280557056",
       img: "/projects/p3.png",
       imgMobile: "/projects/p3_mobile.png"
