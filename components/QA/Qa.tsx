@@ -58,7 +58,7 @@ function Qa() {
               {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(0,3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] w-[100%] text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] w-[85%] text-justify'>
                     <div className='flex flex-col'>
                       <h1 className={classNames(roboto.className, " text-[20px] md:text-[28px] font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
                       <p className={classNames(roboto.className, " text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
@@ -72,7 +72,7 @@ function Qa() {
            {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24 w-[80%] text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24 w-[85%] text-justify'>
                     <div className='flex flex-col '>
                       <h1 className={classNames(roboto.className, "text-[20px] md:text-[28px]  font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
                       <p className={classNames(roboto.className, "text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic")}>{qa.answer}</p>
