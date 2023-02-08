@@ -18,8 +18,8 @@ const sections = [
       path: '#hopes',
     },
     {
-      name: 'Services',
-      path: '#services',
+      name: 'Signers',
+      path: '#signers',
     },
     {
       name: 'Q/A',
