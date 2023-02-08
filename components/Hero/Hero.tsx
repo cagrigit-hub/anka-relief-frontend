@@ -51,19 +51,19 @@ function Hero() {
             <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka-white.svg" />
         </div>
         <div>
-            <h1 className='text-white  text-[50px] md:text-[80px] font-[700] dyhana mb-2'>Anka Relief</h1>
+            <h1 className='text-gray-100  text-[50px] md:text-[80px] font-[700] dyhana mb-2'>Anka Relief</h1>
         </div>
-        <div className={classNames('text-white tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[610px] ', roboto.className)}>
+        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[610px] ', roboto.className)}>
             <p>Anka Relief is a crypto relief fund & research network with the mission of enabling the international crypto community to support the people of Türkiye. </p>
             <p> Emergency need-based intervention and longer term reconstruction efforts are desperately needed since the disastrous earthquakes that shocked the region on February 6.</p>
         </div>
-        <button className='text-white text-base md:text-xl  border-solid mt-12 mb-24 border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button>
+        <button className='text-gray-100 text-base md:text-xl  border-solid mt-12 mb-24 border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button>
         <div id="sticky-top" className='ml-16 mb-12 bg-[#1F1F1F]'>
             <img id="hddnimg" src="/svgs/anka-white.svg" className='w-12 ml-12 mr-6 md:mr-12 hidden'  alt="anka"/>
             {
             sections.map((section, index) => (
             
-                <a href={section.path} key={index}>
+                <a href={section.path}  key={index}>
                 <span className='text-[#d1cfcf] hover:text-white text-lg md:text-xl font-[400]  mr-12 md:mr-20'>{section.name}</span>
                 </a>
             ))
