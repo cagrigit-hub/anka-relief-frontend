@@ -12,7 +12,7 @@ const roboto = Roboto({
 const sections = [
     {
       name: 'Home',
-      path: '/',
+      path: '#home',
     },
     {
       name: 'Hopes',
@@ -30,7 +30,7 @@ const sections = [
   
 function Hero() {
   return (
-    <div className='bg-[#1F1F1F] flex flex-col justify-center items-center'>
+    <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center'>
         <div className='mt-[10rem] mb-8'>
             <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka-white.svg" />
         </div>
@@ -46,9 +46,9 @@ function Hero() {
             {/* Home, Hopes, Services, Q/A: with next link*/}
             {
             sections.map((section, index) => (
-                <Link href={section.path} key={index}>
+                <a href={section.path} key={index}>
                 <span className='text-[#d1cfcf] hover:text-white text-lg md:text-xl font-[400]  mr-12 md:mr-20'>{section.name}</span>
-                </Link>
+                </a>
             ))
             }
         </div>
