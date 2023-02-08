@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Hopes from '@/components/Hopes'
 import QA from '@/components/QA'
@@ -20,7 +21,9 @@ function Home() {
           <Hopes />
           <Team />
           <QA />
+          <Footer />
         </main>
+
     </>
   )
 }
