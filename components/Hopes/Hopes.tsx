@@ -35,12 +35,12 @@ const hopes = [
 
 function Hopes() {
   return (
-    <div className='mt-20 mb-16 text-[#3C3C3C]' >
+    <div id="hopes" className='mt-20 mb-16 text-[#3C3C3C]' >
       <Blob shape="rectangle" size={1} color="bg-[#60A325]">
          Our aim is to tap into the solidarity within the web3 ecosystem and coordinate to bring about a trusted, sustainable fund as well as provide support to the wider Turkish disaster fundraising ecosystem in terms of legal and public informational support / research.
       </Blob>
 
-      <div id="hopes" className='flex flex-col md:flex-row  max-w-7xl mx-auto w-full mt-12'>
+      <div className='flex flex-col md:flex-row  max-w-7xl mx-auto w-full mt-12'>
         <div className='red-logo flex'>
           <img className='w-[70%] md:w-[80%] mx-auto' src='/svgs/anka-red.svg' alt="anka-red-svg"/>
         </div>
