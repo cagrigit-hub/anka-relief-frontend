@@ -18,7 +18,7 @@ const qas = [
   {
     id:2,
     question: "Several NGOs already have crypto accounts opened. Why donate here instead of directly to those NGOs?",
-    answer: "For potential donors outside of Turkiye, deciding which NGOs to donate to directly can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations."
+    answer: "For potential donors outside of Turkiye, deciding which NGOs to donate can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations. These other trustable NGOs that have not opened crypto accounts yet can also be funded through the raised funds in later stage of the response efforts."
   },
   {
     id:3,
