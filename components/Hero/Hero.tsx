@@ -22,7 +22,7 @@ const sections = [
       path: '#signers',
     },
     {
-      name: 'Q/A',
+      name: 'FAQ',
       path: '#qa',
     },
   ]
