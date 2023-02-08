@@ -44,8 +44,8 @@ function Projects() {
   ] 
   return (
     <div id='projects' className='flex text-[#3C3C3C] flex-col space-y-8 mb-24'>
-      <div className='text-2xl ml-[2rem] lg:ml-[21.5rem]  w-[400px]  lg:w-[700px]'>
-          <p className='font-bold mb-2'>
+      <div className='px-12 xl:px-1  md:max-w-7xl mx-auto w-full '>
+          <p className='font-bold mb-2 text-[20px] md:text-[38px] text-center'>
             Already, the Anka Relief core team have spearheaded the following global impact initiatives & more;
           </p>
       </div>

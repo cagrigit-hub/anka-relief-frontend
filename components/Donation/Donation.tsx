@@ -12,39 +12,42 @@ const roboto = Roboto({
 const accounts = [
   {
     id: 1,
-    name: "ETH,USDC,USDT,TRYC:",
-    account: "0xb......................................"
+    name: "ETHEREUM NETWORK - ETH, ERC-20 Tokens",
+    account: "0xCE4d5B5933B369e9c937ffCfBB9e3aeb3d2c265B",
+    scanurl: "https://etherscan.io/address/0xCE4d5B5933B369e9c937ffCfBB9e3aeb3d2c265B"
   },
-  {
-    id: 2,
-    name: "BTC:",
-    account: "0xb......................................"
-  },
-  {
-    id: 3,
-    name: "TRX:",
-    account: "0xb......................................"
-  },
-  {
-    id: 4,
-    name: "AVAX:",
-    account: "0xb......................................"
-
-  },
-  {
-    id: 5,
-    name: "SOL:",
-    account: "0xb......................................."
-
-  },
-  {
-    id: 6,
-    name: "BNB:",
-    account: "0xb......................................"
-
-  }
+  
 
 ]
+
+// {
+//   id: 2,
+//   name: "BTC:",
+//   account: "0xb......................................"
+// },
+// {
+//   id: 3,
+//   name: "TRX:",
+//   account: "0xb......................................"
+// },
+// {
+//   id: 4,
+//   name: "AVAX:",
+//   account: "0xb......................................"
+
+// },
+// {
+//   id: 5,
+//   name: "SOL:",
+//   account: "0xb......................................."
+
+// },
+// {
+//   id: 6,
+//   name: "BNB:",
+//   account: "0xb......................................"
+
+// }
 function Donation() {
   return (
     <div id="donation" className='relative mb-36'>
@@ -53,7 +56,7 @@ function Donation() {
       }} />
       <div className='px-12 xl:px-1  md:max-w-7xl pt-[11rem] mx-auto w-full'>
             <h1 className={classNames(roboto.className, "text-[20px] text-[#3C3C3C] md:text-[38px] font-bold")}>Donation account details are as follows</h1>
-            <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p>
+            {/* <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p> */}
         </div>
         
          <div className={classNames(roboto.className,'accounts flex flex-col space-y-6 mt-16')}>
@@ -70,7 +73,7 @@ function Donation() {
                 </div>
               </div>
               <div className='w-60 text-xs lg:text-base text-[#848484] text-justify'>
-              To view the transfers and the total amount donated click <span className='text-red-400'>here</span>
+              To view the transfers and the total amount donated click <a href={account.scanurl}><span className='text-red-400'>here</span></a>
               </div>
             </div>
             </>
