@@ -35,7 +35,7 @@ const hopes = [
 
 function Hopes() {
   return (
-    <div className='mt-20 mb-16' id="hopes">
+    <div className='mt-20 mb-16 text-[#3C3C3C]' id="hopes">
       <Blob shape="rectangle" size={1} color="bg-[#60A325]">
          Our aim is to tap into the solidarity within the web3 ecosystem and coordinate to bring about a trusted, sustainable fund as well as provide support to the wider Turkish disaster fundraising ecosystem in terms of legal and public informational support / research.
       </Blob>

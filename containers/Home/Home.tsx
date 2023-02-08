@@ -1,3 +1,4 @@
+import Donation from '@/components/Donation'
 import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Hopes from '@/components/Hopes'
@@ -17,12 +18,13 @@ function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/svgs/anka-red.svg" />
         </Head>
-        <main className='main'>
+        <main className='main '>
           <Hero />
           <Hopes />
           <Team />
           <QA />
           <Projects />
+          <Donation />
           <Footer />
         </main>
 
