@@ -1,5 +1,5 @@
 import { classNames } from '@/functions/classnames'
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import {Roboto} from '@next/font/google'
 
 const roboto = Roboto({
@@ -28,23 +28,40 @@ const sections = [
   ]
   
 function Hero() {
+const [sidebarWidth, setSidebarWidth] = useState<number | undefined>(undefined);
+const [sidebarTop, setSidebarTop] = useState<number | undefined>(undefined);
+ 
+useEffect(() => {
+  const sidebarEl = document.getElementById('sticky-top')?.getBoundingClientRect();
+  setSidebarWidth(sidebarEl?.width);
+  setSidebarTop(sidebarEl?.top);
+}, []);
+ 
+useEffect(() => {
+  if (!sidebarTop) return;
+ 
+  window.addEventListener('scroll', isSticky);
+  return () => {
+    window.removeEventListener('scroll', isSticky);
+  };
+}, [sidebarTop]);
+ 
+const isSticky = (e : any) => {
+  const sidebarEl = document.getElementById('sticky-top');
+  const hddnimg = document.getElementById('hddnimg');
+  const dntn = document.getElementById('dntn');
+  const scrollTop = window.scrollY;
+  if (scrollTop >= sidebarTop!) {
+    sidebarEl?.classList.add('is-sticky');
+    hddnimg?.classList.add('appeal-img');
+    dntn?.classList.add('appeal-img');
+  } else {
+    sidebarEl?.classList.remove('is-sticky');
+    hddnimg?.classList.remove('appeal-img');
+    dntn?.classList.remove('appeal-img');
 
-  useEffect(() => {
-    // make sticky top by scroll
-    const header = document.getElementById('sticky-top')
-    const hddnimg = document.getElementById('hddnimg')
-    window.onscroll = function() {myFunction()};
-    function myFunction() {
-      if (window.pageYOffset > 910){
-        header!.classList.add("sticky");
-        hddnimg!.classList.add('appeal-img');
-      } else {
-        header!.classList.remove("sticky");
-        hddnimg!.classList.remove('appeal-img');
-      }
-    }
-
-  } , [])
+  }
+}
   return (
     <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center'>
         <div className='mt-[10rem] mb-8'>
@@ -57,8 +74,8 @@ function Hero() {
             <p>Crypto relief fund to support the people of Turkiye after disastrous earthquakes struck the region on February 6. Multi-sig operated by industry leaders, funding the best NGOs.</p>
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl  border-solid mt-12 mb-24 border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button></a>
-        <div id="sticky-top" className='ml-16 mb-12 bg-[#1F1F1F]'>
-            <img id="hddnimg" src="/svgs/anka-white.svg" className='w-12 ml-12 mr-6 md:mr-12 hidden'  alt="anka"/>
+        <div id="sticky-top" className='mb-12 h-24 items-center relative bg-[#1F1F1F] flex w-full pl-[38%]'>
+            <img id="hddnimg" src="/svgs/anka-white.svg" className='w-12 left-16 absolute hidden'  alt="anka"/>
             {
             sections.map((section, index) => (
             
@@ -67,6 +84,10 @@ function Hero() {
                 </a>
             ))
             }
+            <a id="dntn" className=" hidden " href={"#donation"}>
+            <span className='text-[#d1cfcf] hover:text-white text-lg md:text-xl font-[400]  mr-12 md:mr-20'>Donate</span>
+
+            </a>
         </div>
     </div>
   )
