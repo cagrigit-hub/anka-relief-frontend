@@ -63,8 +63,6 @@ function Team() {
                         </div>
                     </div>
 
-
-
                     <div className="mb-6 lg:mb-0">
                         <div className="bg-white block rounded-lg shadow-lg">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover">
