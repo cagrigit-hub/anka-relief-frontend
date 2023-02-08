@@ -1,7 +1,7 @@
 import React from 'react'
 import {Roboto} from '@next/font/google'
 import { classNames } from '@/functions/classnames'
-
+import toast from 'react-hot-toast'
 const roboto = Roboto({
   weight: ["100", "300", "400",  "500", "700", "900"],
   subsets: ['latin'],
@@ -48,6 +48,11 @@ const accounts = [
 //   account: "0xb......................................"
 
 // }
+
+function copyText(account : string) {
+ navigator.clipboard.writeText(account)
+ toast.success('Successfully Copied to Clipboard!')
+}
 function Donation() {
   return (
     <div id="donation" className='relative mb-36'>
@@ -63,13 +68,16 @@ function Donation() {
           {
             accounts.map((account) => (
               <>
-              <div className='flex flex-col space-y-1 lg:space-y-0 lg:flex-row justify-between max-w-[85rem] mt-4 w-[85%] lg:w-full mx-auto bg-[#F3F3F3]  py-4 px-12 lg:px-8 rounded-full'>
+              <div   className='flex  flex-col space-y-1 lg:space-y-0 lg:flex-row justify-between max-w-[85rem] mt-4 w-[85%] lg:w-full mx-auto bg-[#F3F3F3]  py-4 px-12 lg:px-8 rounded-full'>
               <div>
                 <div className='text-[#7E7E7E] text-sm pt-2 lg:pt-0 lg:text-base'>
                   {account.name}
                 </div>
-                <div className='font-bold  text-sm lg:text-base text-[#555555]'>
-                  {account.account}
+                <div onClick={() => {copyText(account.account)}} className='font-bold flex cursor-pointer hover:text-black  text-sm lg:text-base text-[#555555]'>
+                  {account.account} 
+                  <span  className='ml-1 mt-0.5 cursor-pointer'>
+                    <img  className='w-4' src="/svgs/copy.svg" alt="copy"/>
+                  </span>
                 </div>
               </div>
               <div className='w-60 text-xs lg:text-base text-[#848484] text-justify'>
@@ -77,7 +85,7 @@ function Donation() {
               </div>
             </div>
             </>
-
+            
             ))
           }
          

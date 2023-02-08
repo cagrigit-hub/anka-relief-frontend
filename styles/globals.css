@@ -25,18 +25,13 @@ html {
 }
 
 
-.sticky {
-    position: fixed;
-    width: 100%;
-    display: flex;
-    top: 0;
-    justify-content: center;
-    margin-left: 0px;
-    margin-top: 0px;
-    height: 100px;
-    align-items: center;
-    z-index: 1000;
-  }
   .appeal-img {
     display: block;
   }
+
+  .is-sticky {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
