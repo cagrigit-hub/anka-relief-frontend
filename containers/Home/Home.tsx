@@ -14,7 +14,7 @@ function Home() {
             <title>Anka Relief</title>
             <meta name="description" content="Anka Relief" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/svgs/anka-red.svg" />
         </Head>
         <main className='main'>
           <Hero />
