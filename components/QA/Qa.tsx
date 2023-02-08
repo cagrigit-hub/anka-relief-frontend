@@ -63,7 +63,7 @@ function Qa() {
               }
             </div>
             <div className='!h-[750px] hidden md:block top-20 left-[43%] w-[0.5px] bg-[#000000] absolute'></div>
-           <div className='flex flex-col md:flex-row '>
+           <div >
            {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(3).map((qa) => (
