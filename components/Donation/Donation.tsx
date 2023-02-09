@@ -2,6 +2,9 @@ import React from 'react'
 import { Roboto } from '@next/font/google'
 import { classNames } from '@/functions/classnames'
 import toast from 'react-hot-toast'
+//@ts-ignore
+import useMatchMedia from 'react-use-match-media';
+
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
   subsets: ['latin'],
@@ -79,6 +82,7 @@ function copyText(account: string) {
   toast.success('Successfully Copied to Clipboard!')
 }
 function Donation() {
+  const isTablet = useMatchMedia('(max-width: 1024px)');
   return (
     <div id="donation" className='relative mb-36'>
       <div className='absolute h-[10rem] w-full' style={{
@@ -89,7 +93,7 @@ function Donation() {
         {/* <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p> */}
       </div>
 
-      <div className={classNames(roboto.className, 'accounts flex flex-col space-y-6 mt-16')}>
+      <div className={classNames(roboto.className, 'accounts flex flex-col space-y-6 mt-4 md:mt-16')}>
         {
           accounts.map((account) => (
             <>
@@ -99,7 +103,7 @@ function Donation() {
                     {account.name}
                   </div>
                   <div onClick={() => { copyText(account.account) }} className='font-bold flex cursor-pointer hover:text-black  text-sm lg:text-base text-[#555555]'>
-                    {account.account}
+                    {isTablet ? account.account.slice(0,15) + "..." : account.account}
                     <span className='ml-1 mt-0.5 cursor-pointer'>
                       <img className='w-4' src="/svgs/copy.svg" alt="copy" />
                     </span>

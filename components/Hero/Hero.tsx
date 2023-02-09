@@ -1,9 +1,12 @@
 import { classNames } from '@/functions/classnames'
 import React, { useEffect, useState } from 'react'
-import {Roboto} from '@next/font/google'
-
+import { Roboto, Itim } from '@next/font/google'
 const roboto = Roboto({
   weight: ["100", "300", "400",  "500", "700", "900"],
+  subsets: ['latin'],
+})
+const itim = Itim({
+  weight: ["400"],
   subsets: ['latin'],
 })
 
@@ -70,9 +73,9 @@ const isSticky = (e : any) => {
             <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka-white.svg" />
         </div>
         <div>
-            <h1 className='text-gray-100  text-[50px] md:text-[80px] font-[700] dyhana mb-2'>Anka Relief</h1>
+            <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[700] mb-2', itim.className)}>Anka Relief</h1>
         </div>
-        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[610px] ', roboto.className)}>
+        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[640px] ', roboto.className)}>
             <p>Crypto relief fund to support the people of Türkiye after disastrous earthquakes struck the region on February 6. Multi-sig operated by industry leaders, funding the best NGOs.</p>
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12  border-solid mt-12  border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button></a>
@@ -83,12 +86,12 @@ const isSticky = (e : any) => {
             sections.map((section, index) => (
             
                 <a href={section.path}  key={index}>
-                <span className='text-[#d1cfcf] hover:text-white text-[1.2rem] md:text-xl font-[400] mr-6 md:mr-12 lg:mr-20'>{section.name}</span>
+                <span className='text-[#d1cfcf] hover:text-white text-[0.9rem] sm:text-[1.2rem] md:text-xl font-[400] mr-3 sm:mr-6 md:mr-12 lg:mr-20'>{section.name}</span>
                 </a>
             ))
             }
             <a id="dntn" className=" hidden " href={"#donation"}>
-            <span className='text-[#d1cfcf] hover:text-white text-[1.2rem] md:text-xl font-[400]  mr-12 md:mr-20'>Donate</span>
+            <span className='text-[#d1cfcf] hover:text-white text-[0.8rem] sm:text-[1.2rem] md:text-xl font-[400]  mr-12 md:mr-20'>Donate</span>
 
             </a>
         </div>

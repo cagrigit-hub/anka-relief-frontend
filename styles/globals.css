@@ -56,3 +56,9 @@ html {
   }
  
 }
+
+/* debug */
+/* * {
+    box-sizing: border-box;
+    background: rgb(0 100 0 / 0.5) !important;
+} */
