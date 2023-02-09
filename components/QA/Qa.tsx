@@ -28,7 +28,7 @@ const qas = [
   {
     id: 4,
     question: "What is a multi-signature wallet and how is this relevant?",
-    answer: "To move funds from an Anka Relief multi-signature wallet, at least 5 industry leaders must approve the transaction. This increases security and transparency, building trust and providing visibility. For more information, visit <a href='https://safe.global/' target='_blank'>Safe</a>."
+    answer: "To move funds from an Anka Relief multi-signature wallet, at least 6 industry leaders must approve the transaction. This increases security and transparency, building trust and providing visibility. For more information, visit <a href='https://safe.global/' target='_blank'>Safe</a>."
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ function Qa() {
       }} />
         <div className='px-12 xl:px-1  md:max-w-7xl pt-[11rem] mx-auto w-full '>
           <div>
-            <h1 className={classNames(roboto.className, "text-[20px] md:text-[38px] font-bold")}>Frequently Asked Questions</h1>
+            <h1 className={classNames("text-[20px] md:text-[38px] font-bold montserrat-700")}>FREQUENTLY ASKED QUESTIONS</h1>
             {/* <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p> */}
           </div>
           <div className='flex flex-col w-full md:flex-row relative space-x-0 md:justify-between'>
@@ -58,10 +58,10 @@ function Qa() {
               {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(0,3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem]  text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] red-hat '>
                     <div className='flex flex-col'>
-                      <h1 className={classNames(roboto.className, " text-[20px] md:text-[28px] font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
-                      <p className={classNames(roboto.className, " text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic qa-answer")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
+                      <h1 className={classNames(" text-[20px] md:text-[28px] font-bold text-[#6B6B6B] ")}>Q. {qa.question}</h1>
+                      <p className={classNames(" text-[18px] md:text-[18px] font-[400] text-[#707070] mt-[1rem] italic qa-answer")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
                     </div>
                   </div>
                 ))
@@ -72,10 +72,10 @@ function Qa() {
            {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24  text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24 red-hat '>
                     <div className='flex flex-col '>
-                      <h1 className={classNames(roboto.className, "text-[20px] md:text-[28px]  font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
-                      <p className={classNames(roboto.className, "text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic qa-answer")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
+                      <h1 className={classNames( "text-[20px] md:text-[28px]  font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
+                      <p className={classNames("text-[18px] md:text-[18px] font-[400] text-[#707070] mt-[1rem] italic qa-answer")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
                     </div>
                   </div>
                 ))

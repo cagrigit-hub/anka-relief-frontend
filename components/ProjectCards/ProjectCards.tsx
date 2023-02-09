@@ -30,11 +30,11 @@ function ProjectCards({id, header, title, content, path, img, imgMobile}: IProje
 
         <div style={{
         background: "rgba(220, 216, 216, 0.24)",
-        borderRadius: "47px 1px 1px 47px",
+        borderRadius: "20px 1px 1px 20px",
           
         }} className="left px-12  py-12 text-justify w-full hidden lg:block md:w-[50%] ">
-            <h2 className='font-bold'>{title}</h2>
-            <p className='font-[400] mt-4 '>
+            <h2 className='font-bold red-hat text-lg'>{title}</h2>
+            <p className='font-[400] mt-4 red-hat'>
               {content}
             </p>
         </div>
@@ -46,8 +46,8 @@ function ProjectCards({id, header, title, content, path, img, imgMobile}: IProje
         borderRadius: "1px 1px 47px 47px",
        
         }} className="left px-12 py-6 text-justify mx-auto w-[90%] block lg:hidden ">
-            <h2 className=' font-bold'>{title}</h2>
-            <p >
+            <h2 className='red-hat font-bold'>{title}</h2>
+            <p className='red-hat'>
               {content}
             </p>
         </div>

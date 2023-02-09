@@ -4,7 +4,7 @@ function Team() {
     return (
         <div id="signers" className="container my-24 px-6 mx-auto">
             <section className="mb-32 text-[#3C3C3C] text-center">
-                <h2 className="text-3xl font-bold mb-12">Multi Signers</h2>
+                <h2 className="text-3xl font-bold mb-12 montserrat-700">MULTI SIGNERS</h2>
 
                 <div className="grid md:grid-cols-3 gap-x-6 lg:gap-x-12">
                     <div className="mb-6 lg:mb-0">
@@ -21,8 +21,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Rene Reingsberg</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ CELO Foundation</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Rene Reingsberg</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ CELO Foundation</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/RegenRene" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -49,8 +49,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">CJ Hetherington</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Atlantis World</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">CJ Hetherington</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Atlantis World</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/cjhtech" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -77,8 +77,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Eva Beylin</h5>
-                                <p className="text-gray-500 mb-4">Director @ The Graph Foundation</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Eva Beylin</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Director @ The Graph Foundation</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/evabeylin" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -107,8 +107,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Marek Olszewski</h5>
-                                <p className="text-gray-500 mb-4">Founder @ cLabs</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Marek Olszewski</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Founder @ cLabs</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/marek_" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -135,8 +135,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Can Kisagun</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Enigma / Secret Network</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Can Kisagun</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Enigma / Secret Network</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/kisaguncan" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -163,8 +163,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Luuk Weber</h5>
-                                <p className="text-gray-500 mb-4">Founder @ Kolektivo</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Luuk Weber</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Founder @ Kolektivo</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/evabeylin" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -193,8 +193,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Scott Moore</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Gitcoin</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Scott Moore</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Gitcoin</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/notscottmoore" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -221,8 +221,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Alona Shevchenko</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Ukraine DAO</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Alona Shevchenko</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Ukraine DAO</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/cryptodrftng" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -249,8 +249,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Bilal Bin Saqib</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Tayaba & One Million Meals</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Bilal Bin Saqib</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Tayaba & One Million Meals</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/Bilalbinsaqib" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -279,8 +279,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Berk Sohtorik</h5>
-                                <p className="text-gray-500 mb-4">Co-founder @ Earthist Network</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Berk Sohtorik</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Co-founder @ Earthist Network</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/berksohtorik" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">
@@ -307,8 +307,8 @@ function Team() {
                                 </svg>
                             </div>
                             <div className="p-6">
-                                <h5 className="text-lg font-bold mb-4">Doğa Öztüzün</h5>
-                                <p className="text-gray-500 mb-4">Partner @ Muhabbit Capital</p>
+                                <h5 className="text-lg font-bold mb-4 montserrat-700">Doğa Öztüzün</h5>
+                                <p className="text-gray-500 mb-4 red-hat">Partner @ Muhabbit Capital</p>
                                 <ul className="list-inside flex mx-auto justify-center">
                                     <a href="https://twitter.com/unquale" className="px-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 text-black">

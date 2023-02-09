@@ -89,17 +89,17 @@ function Donation() {
         background: "linear-gradient(180deg, #D1D1D0 0%, rgba(255, 255, 255, 0) 100%)"
       }} />
       <div className='px-12 xl:px-1  md:max-w-7xl pt-[11rem] mx-auto w-full'>
-        <h1 className={classNames(roboto.className, "text-[20px] text-[#3C3C3C] md:text-[38px] font-bold")}>Donation account details are as follows</h1>
+        <h1 className={classNames( "montserrat-700 text-[20px] text-[#3C3C3C] md:text-[38px] ")}>DONATION ACCOUNT DETAILS ARE AS FOLLOWS</h1>
         {/* <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p> */}
       </div>
 
-      <div className={classNames(roboto.className, 'accounts flex flex-col space-y-6 mt-4 md:mt-16')}>
+      <div className={classNames( 'red-hat accounts flex flex-col space-y-6 mt-4 md:mt-16')}>
         {
           accounts.map((account) => (
             <>
-              <div className='flex  flex-col space-y-1 lg:space-y-0 lg:flex-row justify-between max-w-[85rem] mt-4 w-[85%] lg:w-full mx-auto bg-[#F3F3F3]  py-4 px-12 lg:px-8 rounded-full'>
+              <div className='flex red-hat flex-col space-y-1 lg:space-y-0 lg:flex-row justify-between max-w-[85rem] mt-4 w-[85%] lg:w-full mx-auto bg-[#F3F3F3]  py-4 px-12 lg:px-8 rounded-full'>
                 <div>
-                  <div className='text-[#7E7E7E] text-sm pt-2 lg:pt-0 lg:text-base'>
+                  <div className='text-[#7E7E7E] text-sm pt-2 lg:pt-0 lg:text-base '>
                     {account.name}
                   </div>
                   <div onClick={() => { copyText(account.account) }} className='font-bold flex cursor-pointer hover:text-black  text-sm lg:text-base text-[#555555]'>
@@ -109,7 +109,7 @@ function Donation() {
                     </span>
                   </div>
                 </div>
-                <div className='w-60 text-xs lg:text-base text-[#848484] text-justify'>
+                <div className='w-60 text-xs lg:text-base text-[#848484] text-justify red-hat'>
                   To view the transfers and the total amount donated click <a href={account.scanurl}><span className='text-red-400'>here</span></a>
                 </div>
               </div>

@@ -81,23 +81,25 @@ const isSticky = (e : any) => {
   return (
     <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center'>
         <div className='mt-[10rem] mb-8'>
-            <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka-white.svg" />
+            <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka_white_green.svg" />
         </div>
         <div>
             <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[600] mb-2', cinzel.className)}>Anka Relief</h1>
         </div>
-        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-center   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[640px] ', roboto.className)}>
-            <p>Crypto relief fund to support the people of Türkiye after disastrous earthquakes struck the region on February 6. Multi-sig operated by industry leaders, funding the best NGOs.</p>
+        <div className={classNames('text-gray-100 tracking-wider space-y-1 leading-4 md:leading-[23px]  text-center red-hat  text-[12px] md:text-[20px]   w-[300px] md:w-[640px] font-[400] ')}>
+            <p>Crypto relief fund to support the people of Türkiye after disastrous earthquakes struck the region on February 6. </p>
+              <p>Multi-sig operated by industry leaders, funding the best NGOs.</p>
+          
         </div>
-        <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12  border-solid mt-12  border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button></a>
+        <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12 py-2  border-solid mt-12 border-green-700  border-[3px] px-6  md:px-10  rounded-full hover:bg-green-700  transition ease-in-out duration-300 montserrat-700 '>DONATE</button></a>
         <div id="sticky-top" className='w-full pt-12  lg:pl-16 bg-[#1F1F1F]'>
           <div className='mb-12  flex items-center justify-center  relative '>
-            <img id="hddnimg" src="/svgs/anka-white.svg" className='w-16 lg:left-16 absolute hidden'  alt="anka"/>
+            <img id="hddnimg" src="/svgs/anka_white_green.svg" className='w-16 lg:left-16 absolute hidden'  alt="anka"/>
             {
             sections.map((section, index) => (
             
                 <a href={section.path}  key={index}>
-                <span className={classNames('text-[#d1cfcf] hover:text-white text-[0.9rem] sm:text-[1.2rem] md:text-xl montserrat-700 mr-3 sm:mr-6 md:mr-12 lg:mr-20')}>{section.name}</span>
+                <span className={classNames('text-[#d1cfcf] hover:text-white hover:underline underline-offset-8 decoration-4 decoration-green-700 text-[0.9rem] sm:text-[1.2rem] md:text-xl montserrat-700 mr-3 sm:mr-6 md:mr-12 lg:mr-20')}>{section.name}</span>
                 </a>
             ))
             }
