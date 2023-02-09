@@ -40,7 +40,7 @@ function Hopes() {
 
       <div className='flex flex-col md:flex-row  max-w-7xl mx-auto w-full mt-12'>
         <div className='red-logo flex'>
-          <img className='w-[70%] md:w-[80%] mx-auto' src='/svgs/anka-red.svg' alt="anka-red-svg"/>
+          <img className='w-[70%] md:w-[80%] mx-auto' src='anka-red.png' alt="Anka Relief"/>
         </div>
         <div  className='hopes-to text-center md:text-start'>
           <h1 className={classNames("text-[25px] md:text-[32px] font-bold mt-12 md:mt-0 montserrat-700 text-center mx-auto w-[200px] md:w-full" )}>ANKA RELIEF HOPES TO </h1>
