@@ -46,14 +46,14 @@ function Hopes() {
           <img className='w-[70%] md:w-[80%] mx-auto' src='/svgs/anka-red.svg' alt="anka-red-svg"/>
         </div>
         <div  className='hopes-to text-center md:text-start'>
-          <h1 className={classNames(roboto.className,"text-[25px] md:text-[32px] font-bold mt-2 md:mt-0" )}>Anka Relief hopes to: </h1>
+          <h1 className={classNames(roboto.className,"text-[25px] md:text-[32px] font-bold mt-2 md:mt-0" )}>ANKA RELIEF HOPES TO </h1>
           {
             hopes.map((hope) => (
               <div key={hope.id} className='flex justify-center items-center space-x-8  mt-8'>
                 <div>
                   <img src={hope.image} className="w-[100px] object-contain" alt="hope-image"/>
                 </div>
-                <div className={classNames(roboto.className,"text-[15px]  md:text-[20px] w-[250px] md:w-[410px] text-justify font-[400] leading-[30px] text-[#4F4F4F]")}>
+                <div className={classNames(roboto.className,"text-[15px]  md:text-[20px] w-[250px] md:w-[410px]  font-[400] leading-[30px] text-[#4F4F4F]")}>
                   {hope.content}
                 </div>
               </div>

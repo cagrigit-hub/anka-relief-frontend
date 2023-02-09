@@ -1,31 +1,38 @@
 import { classNames } from '@/functions/classnames'
 import React, { useEffect, useState } from 'react'
-import { Roboto, Itim } from '@next/font/google'
+import { Roboto, Cinzel, Montserrat } from '@next/font/google'
 const roboto = Roboto({
   weight: ["100", "300", "400",  "500", "700", "900"],
   subsets: ['latin'],
 })
-const itim = Itim({
-  weight: ["400"],
+
+
+const montserrat = Montserrat({
+  weight: ["100", "300", "400",  "500", "700", "900"],
+  subsets: ['latin'],
+})
+
+const cinzel = Cinzel({
+  weight: ["600"],
   subsets: ['latin'],
 })
 
 // sections for Hero
 const sections = [
     {
-      name: 'Home',
+      name: 'HOME',
       path: '#home',
     },
     {
-      name: 'Donate',
+      name: 'DONATE',
       path: '#donation',
     },
     {
-      name: 'About',
+      name: 'ABOUT',
       path: '#hopes',
     },
     {
-      name: 'Multi-Signers',
+      name: 'MULTI-SIGNERS',
       path: '#signers',
     },
     {
@@ -77,20 +84,20 @@ const isSticky = (e : any) => {
             <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka-white.svg" />
         </div>
         <div>
-            <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[700] mb-2', itim.className)}>Anka Relief</h1>
+            <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[600] mb-2', cinzel.className)}>Anka Relief</h1>
         </div>
-        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-justify   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[640px] ', roboto.className)}>
+        <div className={classNames('text-gray-100 tracking-wider  leading-4 md:leading-[23px]  text-center   text-[12px] md:text-[20px]  font-[300] w-[300px] md:w-[640px] ', roboto.className)}>
             <p>Crypto relief fund to support the people of Türkiye after disastrous earthquakes struck the region on February 6. Multi-sig operated by industry leaders, funding the best NGOs.</p>
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12  border-solid mt-12  border-[2px] px-6 pt-1 pb-2 md:px-10 md:pt-2 md:pb-4 rounded-full hover:bg-white  hover:text-black transition ease-in-out duration-300'>Donate</button></a>
         <div id="sticky-top" className='w-full pt-12  lg:pl-16 bg-[#1F1F1F]'>
           <div className='mb-12  flex items-center justify-center  relative '>
-            <img id="hddnimg" src="/svgs/anka-white.svg" className='w-12 lg:left-16 absolute hidden'  alt="anka"/>
+            <img id="hddnimg" src="/svgs/anka-white.svg" className='w-16 lg:left-16 absolute hidden'  alt="anka"/>
             {
             sections.map((section, index) => (
             
                 <a href={section.path}  key={index}>
-                <span className='text-[#d1cfcf] hover:text-white text-[0.9rem] sm:text-[1.2rem] md:text-xl font-[400] mr-3 sm:mr-6 md:mr-12 lg:mr-20'>{section.name}</span>
+                <span className={classNames('text-[#d1cfcf] hover:text-white text-[0.9rem] sm:text-[1.2rem] md:text-xl montserrat-700 mr-3 sm:mr-6 md:mr-12 lg:mr-20')}>{section.name}</span>
                 </a>
             ))
             }

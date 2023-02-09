@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -27,6 +28,11 @@ html {
 .qa-answer a {
     color: #000;
     text-decoration: underline;
+}
+
+.montserrat-700 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 
