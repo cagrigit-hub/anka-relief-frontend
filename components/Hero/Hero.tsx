@@ -93,7 +93,7 @@ const isSticky = (e : any) => {
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12 py-2  border-solid mt-12 border-green-700  border-[3px] px-6  md:px-10  rounded-full hover:bg-green-700  transition ease-in-out duration-300 montserrat-700 '>DONATE</button></a>
         <div id="sticky-top" className='w-full pt-12  lg:pl-16 bg-[#1F1F1F]'>
-          <div className='mb-12  flex items-center justify-center  relative '>
+          <div className='mb-12  md:flex items-center justify-center  relative hidden '>
             <img id="hddnimg" src="/svgs/anka_white_green.svg" className='w-16 lg:left-16 absolute hidden'  alt="anka"/>
             {
             sections.map((section, index) => (

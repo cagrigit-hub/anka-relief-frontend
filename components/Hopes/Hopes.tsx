@@ -38,7 +38,7 @@ function Hopes() {
     <div id="hopes" className='mt-20 relative mb-16 text-[#3C3C3C]' >
       <img src="/projects/transparent.png" className='w-full top-[-80px] h-[14rem] md:h-[28rem] object-cover absolute z-[-1000] '/>
       <Blob shape="rectangle" size={1} color="bg-[#60A325]">
-         Our aim is to tap into the solidarity within the web3 ecosystem and coordinate to bring about a trusted, sustainable fund as well as provide support to the wider Turkish disaster fundraising ecosystem in terms of legal and public informational support / research.
+         Our aim is to tap into the solidarity within the web3 ecosystem and coordinate to bring about a trusted, sustainable fund as well as provide support to the wider Turkish disaster fundraising ecosystem.
         <div className='bg-green-700 w-48 lg:w-96 h-[3px] mt-[10px] md:mt-[25px]'></div>
       </Blob>
 
