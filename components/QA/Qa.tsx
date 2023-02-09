@@ -53,12 +53,12 @@ function Qa() {
             <h1 className={classNames(roboto.className, "text-[20px] md:text-[38px] font-bold")}>Frequently Asked Questions</h1>
             {/* <p className={classNames(roboto.className,"text-[20px] text-[#707070]")}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod consequuntur.</p> */}
           </div>
-          <div className='flex flex-col md:flex-row relative space-x-0 md:justify-between'>
-            <div>
+          <div className='flex flex-col w-full md:flex-row relative space-x-0 md:justify-between'>
+            <div className='md:w-full lg:w-[85%]'>
               {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(0,3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] w-[85%] text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem]  text-justify'>
                     <div className='flex flex-col'>
                       <h1 className={classNames(roboto.className, " text-[20px] md:text-[28px] font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
                       <p className={classNames(roboto.className, " text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic")} dangerouslySetInnerHTML={{ __html: qa.answer }}></p>
@@ -68,11 +68,11 @@ function Qa() {
               }
             </div>
             {/* <div className='!h-[750px] hidden md:block top-20 left-[50%] w-[0.5px] bg-[#000000] absolute'></div> */}
-           <div >
+           <div  className='w-[100%]' >
            {
                 /* 3 questions on the right, 2 on the left */
                 qas.slice(3).map((qa) => (
-                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24 w-[85%] text-justify'>
+                  <div key={qa.id} className='flex flex-col md:flex-row justify-between items-center mt-[5rem] md:ml-24  text-justify'>
                     <div className='flex flex-col '>
                       <h1 className={classNames(roboto.className, "text-[20px] md:text-[28px]  font-bold text-[#6B6B6B]")}>Q. {qa.question}</h1>
                       <p className={classNames(roboto.className, "text-[16px] md:text-[18px] text-[#707070] mt-[1rem] italic")}>{qa.answer}</p>
