@@ -81,7 +81,7 @@ const isSticky = (e : any) => {
   return (
     <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center relative'>
         <div className='mt-[10rem] mb-8'>
-            <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka_white_green.svg" />
+            <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka_white_green.svg" alt='Anka Relief' />
         </div>
         <div>
             <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[600] mb-2', cinzel.className)}>Anka Relief</h1>
