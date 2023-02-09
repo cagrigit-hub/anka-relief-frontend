@@ -26,7 +26,7 @@ function ProjectCards({id, header, title, content, path, img, imgMobile}: IProje
   return (
     <div className={classNames(roboto.className, "max-w-7xl w-full mx-auto")}>
       <h1 className='text-[25px] font-bold ml-8 mb-3'>{header}</h1>
-      <Link  href={path} className='flex flex-col lg:flex-row '>
+      <Link  href={path} target="_blank" className='flex flex-col lg:flex-row '>
 
         <div style={{
         background: "rgba(220, 216, 216, 0.24)",

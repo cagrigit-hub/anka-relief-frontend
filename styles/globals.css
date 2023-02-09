@@ -24,6 +24,11 @@ html {
     bottom: 0;
 }
 
+.qa-answer a {
+    color: #000;
+    text-decoration: underline;
+}
+
 
 /* in mobile still hidden*/
   .appeal-img {
