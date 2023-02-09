@@ -24,13 +24,9 @@ const hopes = [
   {
     id: 3,
     image: "/svgs/hopes/together.svg",
-    content: "Unify efforts within the crypto community as an informational research center, assisting as many NGOs and other initiatives as possible with legal and the possibilities of accepting crypto donations."
+    content: "Unify efforts within the crypto community as a support network, assisting as many NGOs and other initiatives with the possibilities of accepting crypto donations.    "
   },
-  {
-    id: 4,
-    image: "/svgs/hopes/box.svg",
-    content: "Explore the viability of a volunteer-led direct aid model as pioneered by Unchain Fund to increase transparency and accountability."
-  }
+  
 ]
 
 function Hopes() {

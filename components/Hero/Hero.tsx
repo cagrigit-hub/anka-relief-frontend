@@ -79,7 +79,7 @@ const isSticky = (e : any) => {
   }
 }
   return (
-    <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center'>
+    <div id="home" className='bg-[#1F1F1F] flex flex-col justify-center items-center relative'>
         <div className='mt-[10rem] mb-8'>
             <img className='w-40 md:w-44 aspect-auto' src="/svgs/anka_white_green.svg" />
         </div>
@@ -87,9 +87,8 @@ const isSticky = (e : any) => {
             <h1 className={classNames('text-gray-100  text-[50px] md:text-[80px] font-[600] mb-2', cinzel.className)}>Anka Relief</h1>
         </div>
         <div className={classNames('text-gray-100 tracking-wider space-y-1 leading-4 md:leading-[23px]  text-center red-hat  text-[12px] md:text-[20px]   w-[300px] md:w-[640px] font-[400] ')}>
-            <p>Crypto relief fund to support the people of Türkiye after disastrous earthquakes struck the region on February 6. </p>
-              <p>Multi-sig operated by industry leaders, funding the best NGOs.</p>
-          
+            <p>Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region. </p>
+             
         </div>
         <a href="#donation"><button className='text-gray-100 text-base md:text-xl mb-12 py-2  border-solid mt-12 border-green-700  border-[3px] px-6  md:px-10  rounded-full hover:bg-green-700  transition ease-in-out duration-300 montserrat-700 '>DONATE</button></a>
         <div id="sticky-top" className='w-full pt-12  lg:pl-16 bg-[#1F1F1F]'>
@@ -103,6 +102,28 @@ const isSticky = (e : any) => {
                 </a>
             ))
             }
+        </div>
+        <div className='block md:hidden fixed top-0 left-0'>
+              <nav>
+                <div className="navbar">
+                  <div className="container nav-container">
+                      <input className="checkbox" type="checkbox" name="" id="" />
+                      <div className="hamburger-lines">
+                        <span className="line line1"></span>
+                        <span className="line line2"></span>
+                        <span className="line line3"></span>
+                      </div>  
+                    
+                    <div className="menu-items pr-6">
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#donation">DONATE</a></li>
+                      <li><a href="#hopes">ABOUT</a></li>
+                      <li><a href="#signers">MULTI-SIGNERS</a></li>
+                      <li><a href="#qa">FAQ</a></li>
+                    </div>
+                  </div>
+                </div>
+          </nav>
         </div>
         </div>
         
