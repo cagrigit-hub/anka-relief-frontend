@@ -17,11 +17,15 @@ const sections = [
       path: '#home',
     },
     {
-      name: 'Hopes',
+      name: 'Donate',
+      path: '#donation',
+    },
+    {
+      name: 'About',
       path: '#hopes',
     },
     {
-      name: 'Signers',
+      name: 'Multi-Signers',
       path: '#signers',
     },
     {
@@ -90,10 +94,6 @@ const isSticky = (e : any) => {
                 </a>
             ))
             }
-            <a id="dntn" className=" hidden " href={"#donation"}>
-            <span className='text-[#d1cfcf] hover:text-white text-[0.8rem] sm:text-[1.2rem] md:text-xl font-[400]  mr-12 md:mr-20'>Donate</span>
-
-            </a>
         </div>
         </div>
         
