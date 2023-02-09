@@ -11,22 +11,35 @@ import React from 'react'
 
 function Home() {
   return (
-    <>  
-        <Head>
-            <title>Anka Relief</title>
-            <meta name="description" content="Anka Relief" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <link rel="icon" href="/svgs/anka_white_green.svg" />
-        </Head>
-        <main className='main '>
-          <Hero />
-          <Hopes />
-          <Team />
-          <Donation />
-          <QA />
-          <Projects />
-          <Footer />
-        </main>
+    <>
+      <Head>
+        <title>Anka Relief</title>
+        <meta name="description" content="Anka Relief is a Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/svgs/anka_white_green.svg" />
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta name="twitter:title" content="Anka Relief"></meta>
+        <meta name="twitter:site" content="@AnkaRelief"></meta>
+        <meta name="twitter:description" content="Anka Relief is a Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region."></meta>
+        <meta name="twitter:url" content="ankarelief.org"></meta>
+        <meta name="twitter:image" content="https://ankarelief.org/svgs/anka_white_green.svg"></meta>
+        <meta property="og:site_name" content="Anka Relief"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:url" content="ankarelief.org"></meta>
+        <meta property="og:title" content="Anka Relief"></meta>
+        <meta property="og:description" content="Anka Relief is a Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region."></meta>
+        <meta property="og:image" content="https://ankarelief.org/svgs/anka_white_green.svg"></meta>
+        <meta property="og:locale" content="en_US"></meta>
+      </Head>
+      <main className='main '>
+        <Hero />
+        <Hopes />
+        <Team />
+        <Donation />
+        <QA />
+        <Projects />
+        <Footer />
+      </main>
 
     </>
   )
