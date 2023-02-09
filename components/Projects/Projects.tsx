@@ -14,6 +14,15 @@ function Projects() {
       imgMobile: "/projects/p1_mobile.png"
     },
     {
+      id : 5,
+      header: 'Ukraine DAO',
+      title: "Est. 21 Feb 2022, Ukraine DAO is an internet collective that harnesses the power of Web3 tech and community to defend Ukraine against the russian invasion.",
+      content: "After the Ukrainian flag NFT auctioned by Ukraine DAO became the tenth most expensive NFT ever sold, they have donated over $7 million in crypto - including making donations to the Ukrainian government and organizations like Come Back Alive. Ukraine DAO currently focuses on using its platform to counter russian propaganda and amplify Ukrainian voices.",
+      path: "https://ukrainedao.love/",
+      img: "/projects/ukrainedao-project.png",
+      imgMobile: "/projects/ukrainedao-project.png"
+    },
+    {
       id : 2,
       header: 'Save Pakistan Relief NFT Fundraising',
       title: "Save Pakistan launch the first ever NFTs tied to real world humanitarian relief goods this Christmas, Dec 22 at 3pm UTC, on Optimism",

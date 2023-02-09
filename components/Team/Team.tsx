@@ -182,7 +182,7 @@ function Team() {
                     <div className="mb-6 lg:mb-0">
                         <div className="bg-white block rounded-lg shadow-lg">
                             <div className="relative overflow-hidden bg-no-repeat bg-cover">
-                                <img src="team/scott-moore.png" className="w-full rounded-t-lg" />
+                                <img src="team/scott-moore.jpg" className="w-full rounded-t-lg" />
                                 <a href="#!">
                                     <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"></div>
                                 </a>

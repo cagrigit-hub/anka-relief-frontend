@@ -23,7 +23,7 @@ const qas = [
   {
     id:3,
     question: "Why should we trust this initiative?",
-    answer: "Anka Relief is a web3 native initiative with a secure multi-signature wallet operated by industry leaders, a history of successful impact projects including  <a href='https://unchain.fund/' target='_blank'>Unchain Fund</a> and <a href='https://savepakistan.org/' target='_blank'>Save Pakistan</a> Relief NFT Fundraising, and a supportive community on the ground. <br/> We believe it is important to disperse funds to a wide array of NGOs to meet various short and long-term needs that are emerging in every moment. Thanks to help from people on the ground and entities like Paribu and BTC Türk, more NGOs are accepting cryptocurrency donations."
+    answer: "Anka Relief is a web3 native initiative with a secure multi-signature wallet operated by industry leaders, a history of successful impact projects including  <a href='https://unchain.fund/' target='_blank'>Unchain Fund</a>, <a href='https://ukrainedao.love/' target='_blank'>Ukraine DAO</a> and <a href='https://savepakistan.org/' target='_blank'>Save Pakistan</a> Relief NFT Fundraising, and a supportive community on the ground. <br/> We believe it is important to disperse funds to a wide array of NGOs to meet various short and long-term needs that are emerging in every moment. Thanks to help from people on the ground and entities like <a href='https://www.paribu.com/' target='_blank'>Paribu</a>, <a href='https://www.btcturk.com/' target='_blank'>BTCTurk</a>, more NGOs are accepting cryptocurrency donations."
   },
   {
     id: 4,

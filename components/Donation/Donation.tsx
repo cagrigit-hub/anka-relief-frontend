@@ -41,7 +41,7 @@ const accounts = [
   },
   {
     id: 5,
-    name: "GNOSIS NETWORK - xDAI, ERC20 Tokens",
+    name: "GNOSIS CHAIN - xDAI, ERC20 Tokens",
     account: "0xc1460588cA2BcAEB28c80327413e91655505A784",
     scanurl: "https://blockscout.com/xdai/mainnet/address/0xc1460588cA2BcAEB28c80327413e91655505A784"
   },
