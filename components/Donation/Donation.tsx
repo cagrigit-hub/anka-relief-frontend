@@ -34,14 +34,14 @@ const accounts = [
   },
   {
     id: 4,
-    name: "CELO NETWORK - CGLD, ERC20 Tokens",
+    name: "CELO NETWORK - CELO, ERC20 Tokens",
     account: "0x5e9E52e9789F670F80A7de6e438cC491878981B8",
     scanurl: "https://explorer.celo.org/mainnet/address/0x5e9E52e9789F670F80A7de6e438cC491878981B8"
 
   },
   {
     id: 5,
-    name: "GNOSIS NETWORK - xDai, ERC20 Tokens",
+    name: "GNOSIS NETWORK - xDAI, ERC20 Tokens",
     account: "0xc1460588cA2BcAEB28c80327413e91655505A784",
     scanurl: "https://blockscout.com/xdai/mainnet/address/0xc1460588cA2BcAEB28c80327413e91655505A784"
   },

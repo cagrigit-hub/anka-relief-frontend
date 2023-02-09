@@ -18,7 +18,7 @@ const qas = [
   {
     id:2,
     question: "Several NGOs already have crypto accounts opened. Why donate here instead of directly to those NGOs?",
-    answer: "For potential donors outside of Turkiye, deciding which NGOs to donate can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations."
+    answer: "For potential donors outside of Türkiye, deciding which NGOs to donate can be a difficult & confusing task, slowing support. With this model, we are able to pool funds from the international crypto community. Additionally, we are committed to onboarding as many impactful NGOs as possible to accept crypto donations."
   },
   {
     id:3,
@@ -38,7 +38,7 @@ const qas = [
   {
     id: 6,
     question: "Where does the collected money go? Who are these NGOs you fund?",
-    answer: "We will direct all the funds raised to legitimate and trusted NGOs that address multiple humanitarian needs. Several members of the <a href='http://afetplatformu.org.tr/' target='_blank'>Disaster Platform</a>, a non-governmental network formed by 19 NGOs and stakeholders operating during major disasters in Turkey, has started to collect crypto donations. The list includes NGOs such as <a href='https://www.ihtiyacharitasi.org/' target='_blank'>Needs Map</a>, <a href='https://www.tog.org.tr/en/' target='_blank'>Community Volunteers Foundation</a>, <a href='https://ahbap.org/' target='_blank'>Ahbap</a>, <a href='https://www.supporttolife.org/' target='_blank'>Support to Life</a>, <a href='https://www.tider.org/eng' target='_blank'>Basic Needs Association</a>, and <a href='https://www.nefvakfi.org/' target='_blank'>Nef Vakfı</a>."
+    answer: "We will direct all the funds raised to legitimate and trusted NGOs that address multiple humanitarian needs. Several members of the <a href='http://afetplatformu.org.tr/' target='_blank'>Disaster Platform</a>, a non-governmental network formed by 19 NGOs and stakeholders operating during major disasters in Türkiye, has started to collect crypto donations. The list includes NGOs such as <a href='https://www.ihtiyacharitasi.org/' target='_blank'>Needs Map</a>, <a href='https://www.tog.org.tr/en/' target='_blank'>Community Volunteers Foundation</a>, <a href='https://ahbap.org/' target='_blank'>Ahbap</a>, <a href='https://www.supporttolife.org/' target='_blank'>Support to Life</a>, <a href='https://www.tider.org/eng' target='_blank'>Basic Needs Association</a>, and <a href='https://www.nefvakfi.org/' target='_blank'>Nef Vakfı</a>."
   }
 ]
 
