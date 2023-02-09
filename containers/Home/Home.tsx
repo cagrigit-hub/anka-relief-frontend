@@ -22,9 +22,9 @@ function Home() {
           <Hero />
           <Hopes />
           <Team />
+          <Donation />
           <QA />
           <Projects />
-          <Donation />
           <Footer />
         </main>
 
