@@ -22,13 +22,13 @@ function Home() {
         <meta name="twitter:site" content="@AnkaRelief"></meta>
         <meta name="twitter:description" content="Anka Relief is a Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region."></meta>
         <meta name="twitter:url" content="ankarelief.org"></meta>
-        <meta name="twitter:image" content="https://ankarelief.org/svgs/anka_white_green.svg"></meta>
+        <meta name="twitter:image" content="https://ankarelief.org/banner.png"></meta>
         <meta property="og:site_name" content="Anka Relief"></meta>
         <meta property="og:type" content="website"></meta>
         <meta property="og:url" content="ankarelief.org"></meta>
         <meta property="og:title" content="Anka Relief"></meta>
         <meta property="og:description" content="Anka Relief is a Multi-sig crypto relief fund operated by industry leaders to support the people of Türkiye after the disastrous earthquakes that hit the region."></meta>
-        <meta property="og:image" content="https://ankarelief.org/svgs/anka_white_green.svg"></meta>
+        <meta property="og:image" content="https://ankarelief.org/banner.png"></meta>
         <meta property="og:locale" content="en_US"></meta>
       </Head>
       <main className='main '>
