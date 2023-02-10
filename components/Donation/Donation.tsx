@@ -45,6 +45,18 @@ const accounts = [
     account: "0xc1460588cA2BcAEB28c80327413e91655505A784",
     scanurl: "https://blockscout.com/xdai/mainnet/address/0xc1460588cA2BcAEB28c80327413e91655505A784"
   },
+  {
+    id: 5,
+    name: "OPTIMISM - ETH, ERC20 Tokens",
+    account: "0xb88A1deaE6a5dA84B15BBD272E550bd9e87b8a5B",
+    scanurl: "https://optimistic.etherscan.io/address/0xb88A1deaE6a5dA84B15BBD272E550bd9e87b8a5B"
+  },
+  {
+    id: 5,
+    name: "POLYGON NETWORK - MATIC, ERC20 Tokens",
+    account: "0x6aAb7738A646ED1E355a838807b7B7F1B2e60bE4",
+    scanurl: "https://polygonscan.com/address/0x6aAb7738A646ED1E355a838807b7B7F1B2e60bE4"
+  }
 
 ]
 
