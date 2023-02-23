@@ -56,6 +56,12 @@ const accounts = [
     name: "POLYGON NETWORK - MATIC, ERC20 Tokens",
     account: "0x6aAb7738A646ED1E355a838807b7B7F1B2e60bE4",
     scanurl: "https://polygonscan.com/address/0x6aAb7738A646ED1E355a838807b7B7F1B2e60bE4"
+  },
+  {
+    id: 7,
+    name: "ARBITRUM NETWORK - ETH, ERC20 Tokens",
+    account: "0x513236cb92750Fc824833aa1E2f65bA973FE4159",
+    scanurl: "https://arbiscan.io/address/0x513236cb92750Fc824833aa1E2f65bA973FE4159"
   }
 ]
 
